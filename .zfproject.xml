@@ -11,6 +11,12 @@
           <actionMethod actionName="index"/>
         </controllerFile>
         <controllerFile controllerName="Error"/>
+<<<<<<< HEAD
+        <controllerFile controllerName="FormController">
+          <actionMethod actionName="index"/>
+        </controllerFile>
+=======
+>>>>>>> master
         <controllerFile controllerName="Form">
           <actionMethod actionName="index"/>
         </controllerFile>
@@ -30,6 +36,12 @@
           <viewControllerScriptsDirectory forControllerName="Error">
             <viewScriptFile forActionName="error"/>
           </viewControllerScriptsDirectory>
+<<<<<<< HEAD
+          <viewControllerScriptsDirectory forControllerName="FormController">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+=======
+>>>>>>> master
           <viewControllerScriptsDirectory forControllerName="Form">
             <viewScriptFile forActionName="index"/>
           </viewControllerScriptsDirectory>
