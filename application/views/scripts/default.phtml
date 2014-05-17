@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang="es-ES">
+    <head>
+       <?php echo $this->headMeta() ?>
+       <?php echo $this->headTitle() ?>
+       <?php echo $this->headLink() ?> 
+        
+       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+       
+       <link rel="stylesheet" href="<?php echo $this->baseUrl() . '/css/index.css'; ?>" type="text/css">
+       
+    </head>
+    <body>
+        <header>
+            <!-- TODO: FALTA AGREGAR EL LOGO Y OTRAS COSAS -->
+        </header>
+        
+        <div id="divisoria"></div>
+        
+       <!-- //desde aca se incluiran todas las vistas que utilizen este layout -->
+         <?php echo $this->layout()->content ?> 
+        
+        <footer>
+              <!-- TODO:agregar pie de pagina por si se requiera -->
+        </footer>
+    </body>
+</html>
